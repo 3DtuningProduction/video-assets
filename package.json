@@ -1,0 +1,27 @@
+{
+  "name": "tuningVideo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.850.0",
+    "temp": "^0.9.4",
+    "uuid": "^8.3.2",
+    "video-assets": "https://github.com/3DtuningProduction/video-assets.git"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.72",
+    "@types/aws-sdk": "^2.7.0",
+    "@types/node": "^14.14.31",
+    "@types/node-fetch": "^2.5.8",
+    "@types/serverless": "^1.78.20",
+    "@types/uuid": "^8.3.0",
+    "serverless": "^2.25.2",
+    "serverless-plugin-scripts": "^1.0.2",
+    "serverless-plugin-typescript": "^1.1.9",
+    "typescript": "^4.2.2"
+  },
+  "scripts": {
+    "build": "export SLS_DEBUG=true && export AWS_ACCESS_KEY_ID=AKIAJVQC36YR62BIPUVQ && export AWS_SECRET_ACCESS_KEY=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 && serverless deploy"
+  }
+}
